@@ -5,7 +5,7 @@ import Nav from './Component/Nav';
 import Student from './Component/Student';
 import Details from './Component/Details';
 import AddStudent from './Component/AddStudent';
-import EditDetails from './Component/EditDetails';
+//import EditDetails from './Component/EditDetails';
 
 function App() {
   return (
