@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div className='nav__container'>
       <ul>
-        <li><Link to= "/home" style={{textDecoration: 'none', color : 'aliceblue'}} >HOME</Link> </li>
+        <li><Link to= "/home" style={{textDecoration: 'none', color : 'aliceblue'}} >Home</Link> </li>
         <li> <Link to= "/student" style={{textDecoration: 'none', color : 'aliceblue'} } >Student</Link></li>
        <li><Link to= "/contact" style={{textDecoration: 'none', color : 'aliceblue'}} >Contact</Link> </li>
        </ul>
