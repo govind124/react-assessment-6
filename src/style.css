@@ -110,8 +110,8 @@ body{
   .table{
     /* align-items: none; */
     color:black;
-    height: 150px;
-    width: 50%;
+    height: 100px;
+    width: 60%;
     justify-content: space-between;
     background-color: brown;
     border-radius:30px;
@@ -124,6 +124,10 @@ body{
   }
    .table tbody tr td{
    color:white;
+   border: 2px solid black;
+   border-radius: 30px;
+   background-color:green;
+   height: 10px;
 
  }
  .table tbody td{
