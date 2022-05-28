@@ -1,11 +1,11 @@
 body{
-  background-color: springgreen;
+  background-color: brown;
 }
 .nav__container{
   display: flex;
   justify-content: space-between;
   background-color: brown;
-  color: rgb(9, 10, 10) ;
+  /* color: rgb(9, 10, 10) ; */
   box-sizing: border-box;
   align-items: center;
   height: 80px;
@@ -98,8 +98,10 @@ body{
       display: inline-block;
       width: 300px;
       height: 50px;
-      background-color: gray;
+      background-color: green;
       border-radius: 30px;
+      color: white;
+
   }
   
   .submit{
@@ -107,19 +109,22 @@ body{
   }
   .table{
     /* align-items: none; */
-    color:red;
-    height: 100px;
+    color:black;
+    height: 150px;
     width: 50%;
     justify-content: space-between;
-    background-color: yellowgreen;
+    background-color: brown;
     border-radius:30px;
     font-size: 30px;
     border: 3px solid black;
     font-weight: bold;
+    margin-left: 20px;
     /* text-decoration: underline; */
+   
   }
- .table tbody tr td{
-   color:purple;
+   .table tbody tr td{
+   color:white;
+
  }
  .table tbody td{
    text-decoration: none;
